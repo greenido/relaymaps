@@ -43,11 +43,11 @@ func MakeElevationPlot(p *Page) template.URL {
 				Show: true,
 			},
 		},
-		XAxis: chart.XAxis{
-			Style: chart.Style{
-				Show: true,
-			},
-		},
+		// XAxis: chart.XAxis{
+		// 	Style: chart.Style{
+		// 		Show: true,
+		// 	},
+		// },
 		Series: []chart.Series{
 			chart.ContinuousSeries{
 				XValues: xs,

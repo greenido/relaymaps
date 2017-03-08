@@ -2,14 +2,17 @@ package main
 
 import (
 	"fmt"
+	"html/template"
+	"log"
 	"net/url"
 	"regexp"
 	"strconv"
 	"strings"
-	"html/template"
 
 	line "github.com/twpayne/go-polyline"
 )
+
+const NumPages = 36
 
 type Page struct {
 	Number     int
@@ -30,6 +33,8 @@ type ParsedPlacemark struct {
 	URL         string
 	Directions  string
 	Vans        string
+
+	ParsedDistMiles float64
 }
 
 // Somehow, kml stores as lon,lat, we want lat,lon...
@@ -93,6 +98,16 @@ func ParsePlacemark(p *Placemark) *ParsedPlacemark {
 			}
 		}
 	}
+
+	distRE := regexp.MustCompile("([0-9]+(\\.[0-9]+)?) ?[mM]iles?")
+	parts := distRE.FindAllStringSubmatch(res.Description, 1)
+	if len(parts) > 0 {
+		d, err := strconv.ParseFloat(parts[0][1], 64)
+		if err != nil {
+			log.Fatalf("Could not parse %f in %#v", parts[0][1], parts)
+		}
+		res.ParsedDistMiles = d
+	}
 	return res
 }
 
@@ -134,8 +149,6 @@ func NewPage(pms []*Placemark, leg int) *Page {
 	page.ElevationChart = MakeElevationPlot(page)
 	return page
 }
-
-const NumPages = 36
 
 func GroupByPage(k *Kml) []*Page {
 	pms := AllPlacemarks(k)

@@ -27,8 +27,12 @@ func MakeElevationPlot(p *Page) template.URL {
 	xs := make([]float64, len(xys))
 	ys := make([]float64, len(xys))
 	num := len(xys)
+	mult := 1.0
+	if p.Leg.ParsedDistMiles != 0 {
+		mult = p.Leg.ParsedDistMiles
+	}
 	for i, pt := range xys {
-		xs[i] = float64(i) / float64(num-1)
+		xs[i] = float64(i) / float64(num-1) * mult
 		ys[i] = math.Max(0, meterToFeet(pt.Elevation))
 	}
 
@@ -43,11 +47,11 @@ func MakeElevationPlot(p *Page) template.URL {
 				Show: true,
 			},
 		},
-		// XAxis: chart.XAxis{
-		// 	Style: chart.Style{
-		// 		Show: true,
-		// 	},
-		// },
+		XAxis: chart.XAxis{
+			Style: chart.Style{
+				Show: true,
+			},
+		},
 		Series: []chart.Series{
 			chart.ContinuousSeries{
 				XValues: xs,
@@ -61,9 +65,9 @@ func MakeElevationPlot(p *Page) template.URL {
 			chart.AnnotationSeries{
 				Annotations: []chart.Value2{
 					{
-						XValue: 1.0,
+						XValue: xs[num-1],
 						YValue: ys[num-1],
-						Label:  fmt.Sprintf("%.0f", ys[num-1]),
+						Label:  fmt.Sprintf("%.0f ft", ys[num-1]),
 					},
 				},
 			},
@@ -92,7 +96,6 @@ func GetElevations(p *Page) []ElevationPoint {
 
 	url := ("https://maps.googleapis.com/maps/api/elevation/json?" +
 		params.Encode())
-	log.Printf("URL: %s", url)
 
 	<-limiter
 	resp, err := http.Get(url)
@@ -111,7 +114,6 @@ func GetElevations(p *Page) []ElevationPoint {
 		log.Fatalf("Error parsing elevations response: %s", err)
 	}
 	if elevationResp.Status != "OK" {
-		log.Printf("%#v", elevationResp)
 		log.Fatalf("Got a non-OK status from elevation req: %s",
 			elevationResp.Status)
 	}

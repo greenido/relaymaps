@@ -1,9 +1,9 @@
 package main
 
 import (
-	"log"
 	"flag"
 	"io/ioutil"
+	"log"
 )
 
 var (
@@ -21,6 +21,5 @@ func main() {
 	}
 
 	html := KmlToHtml(file)
-	log.Println(html)
 	ioutil.WriteFile(*out, []byte(html), 0x0666)
 }

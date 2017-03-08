@@ -8,9 +8,6 @@ import (
 
 func KmlToHtml(k *Kml) string {
 	pages := GroupByPage(k)
-	for _, page := range pages {
-		log.Printf("Page %d: %#v", page.Number, page)
-	}
 
 	t, err := template.New("webpage").Parse(tpl)
 	if err != nil {

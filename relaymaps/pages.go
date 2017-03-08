@@ -135,7 +135,7 @@ func NewPage(pms []*Placemark, leg int) *Page {
 	return page
 }
 
-const NumPages = 2//36
+const NumPages = 36
 
 func GroupByPage(k *Kml) []*Page {
 	pms := AllPlacemarks(k)

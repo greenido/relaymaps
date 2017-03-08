@@ -94,6 +94,9 @@ img {
     box-shadow: 0 0 8px #bfbfbf;
     margin-top: 0.5em;
 }
+.pre {
+    white-space: pre;
+}
 </style>
 </head>
 <body>
@@ -106,27 +109,34 @@ img {
     <h2>From: {{.Pm.Name}}</h2>
     <p>{{.Description}}</p>
     <p>Runner: {{.Runner}}</p>
-    {{with .Directions}}<p>Directions: {{.}}</p>{{end}}
-    {{with .Vans}}<p>Vans: {{.}}</p>{{end}}
+    {{with .Directions}}<p class="pre">Directions:
+{{.}}</p>{{end}}
+    {{with .Vans}}<p class="pre">Vans:
+{{.}}</p>{{end}}
   {{end}}
 
   {{with .End}}
     <h2>To: {{.Pm.Name}}</h2>
     <p>{{.Description}}</p>
-    {{with .Directions}}<p>Directions: {{.}}</p>{{end}}
-    {{with .Vans}}<p>Vans: {{.}}</p>{{end}}
+    {{with .Directions}}<p class="pre">Directions:
+{{.}}</p>{{end}}
+    {{with .Vans}}<p class="pre">Vans:
+{{.}}</p>{{end}}
   {{end}}
 
   {{with .Leg}}
     <h2>Leg</h2>
     <p>{{.Description}}</p>
     <p>Runner: {{.Runner}}</p>
-    {{with .Directions}}<p>Directions: {{.}}</p>{{end}}
-    {{with .Vans}}<p>Vans: {{.}}</p>{{end}}
+    {{with .Directions}}<p class="pre">Directions:
+{{.}}</p>{{end}}
+    {{with .Vans}}<p class="pre">Vans:
+{{.}}</p>{{end}}
   {{end}}
 
 
   <img src="{{.MapURL}}">
+  <img src="{{.ElevationChart}}">
 {{end}}
 
 </body>

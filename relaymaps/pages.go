@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"net/url"
 	"regexp"
 	"strconv"
 	"strings"
+	"html/template"
 
 	line "github.com/twpayne/go-polyline"
 )
@@ -17,6 +17,9 @@ type Page struct {
 	Leg        *ParsedPlacemark
 
 	MapURL string
+
+	// A PNG image as bytes.
+	ElevationChart template.URL
 }
 
 type ParsedPlacemark struct {
@@ -47,7 +50,6 @@ func MakePolyline(c string) string {
 			coords = append(coords, []float64{lat, lon})
 		}
 	}
-	log.Println(coords)
 	return string(line.EncodeCoords(coords))
 }
 
@@ -62,7 +64,8 @@ func MakeMapURL(p *Page) string {
 	params.Add("size", "600x400")
 
 	//&path=weight:3%7Ccolor:orange%7Cenc:
-	params.Add("path", "weight:5|color:blue|enc:" + MakePolyline(p.Leg.Pm.LineString))
+	params.Add("path", "weight:5|color:blue|enc:"+
+		MakePolyline(p.Leg.Pm.LineString))
 
 	return ("https://maps.googleapis.com/maps/api/staticmap?" +
 		params.Encode() +
@@ -95,7 +98,8 @@ func ParsePlacemark(p *Placemark) *ParsedPlacemark {
 
 func FindPlacemark(pms []*Placemark, prefix string) *ParsedPlacemark {
 	for _, p := range pms {
-		if matched, _ := regexp.MatchString("^"+prefix+"($|[ ,.])", p.Name); matched {
+		if matched, _ := regexp.MatchString(
+			"^"+prefix+"($|[ ,.])", p.Name); matched {
 			return ParsePlacemark(p)
 		}
 	}
@@ -127,10 +131,11 @@ func NewPage(pms []*Placemark, leg int) *Page {
 	}
 
 	page.MapURL = MakeMapURL(page)
+	page.ElevationChart = MakeElevationPlot(page)
 	return page
 }
 
-const NumPages = 36
+const NumPages = 2//36
 
 func GroupByPage(k *Kml) []*Page {
 	pms := AllPlacemarks(k)

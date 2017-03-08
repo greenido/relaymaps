@@ -7,6 +7,7 @@ import (
 	"html/template"
 	"io/ioutil"
 	"log"
+	"math"
 	"net/http"
 	"net/url"
 	"time"
@@ -28,7 +29,7 @@ func MakeElevationPlot(p *Page) template.URL {
 	num := len(xys)
 	for i, pt := range xys {
 		xs[i] = float64(i) / float64(num-1)
-		ys[i] = meterToFeet(pt.Elevation)
+		ys[i] = math.Max(0, meterToFeet(pt.Elevation))
 	}
 
 	log.Printf("Xs = %#v", xs)
@@ -52,7 +53,7 @@ func MakeElevationPlot(p *Page) template.URL {
 				XValues: xs,
 				YValues: ys,
 				Style: chart.Style{
-					Show:        true,                           //note; if we set ANY other properties, we must set this to true.
+					Show:        true,                            //note; if we set ANY other properties, we must set this to true.
 					StrokeColor: drawing.ColorBlue,               // will supercede defaults
 					FillColor:   drawing.ColorBlue.WithAlpha(64), // will supercede defaults
 				},

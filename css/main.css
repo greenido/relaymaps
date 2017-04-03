@@ -1,9 +1,5 @@
-body {
-  font-family: Roboto, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fdfdfd;
-}
+
+
 
 h1 {
   font-size: 2.5rem;
@@ -34,20 +30,10 @@ h3:before {
   background: #ab0000;
 }
 p {
-  margin-left: 3em;
+  margin-left: 2em;
   font-weight: 300;
   position: relative;
   color: #383838;
-}
-p:before {
-  content: '';
-  position: absolute;
-  left: -12px;
-  width: 6px;
-  height: 6px;
-  background: #6b6b6b;
-  border-radius: 3px;
-  top: 30%;
 }
 hr {
   border-top: 1px gray;
@@ -64,14 +50,8 @@ img {
 .pre {
   white-space: pre;
 }
-.en-markup-crop-options {
-  top: 18px !important;
-  left: 50% !important;
-  margin-left: -100px !important;
-  width: 200px !important;
-  border: 2px rgba(255,255,255,.38) solid !important;
-  border-radius: 4px !important;
-}
-.en-markup-crop-options div div:first-of-type {
-  margin-left: 0px !important;
+.btn-space {
+  padding: 1em;
+  margin: .4em;
+  width: 5em;
 }

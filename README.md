@@ -1,5 +1,8 @@
 Generates a web page with maps based on The Relay KMZ/KML maps.
 
+## Live version
+[https://greenido.github.io/relaymaps/](https://greenido.github.io/relaymaps/)
+
 ## Build
 
 You will need to install [Bazel](bazel.io). Then:

@@ -5,7 +5,7 @@ https://bit.ly/ggrr1 or https://greenido.github.io/relaymaps/
 
 ## Build
 
-You will need to install [Bazel](bazel.io). Then:
+You will need to install [Bazel](https://bazel.build/). Then:
 
     $ bazel build relaymaps:main
 

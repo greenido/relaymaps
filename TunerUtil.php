@@ -33,13 +33,9 @@ class Ggr {
         $fullHtml = substr_replace($fullHtml, '<button class="btn btn-primary btn-space" type="button" data-toggle="collapse" 
             data-target="#leg-' . $i . '-details" aria-expanded="false" aria-controls="leg-' . $i . '-details">
           Leg '.$i.'</button> <div class="collapse" id="leg-' . $i .'-details">
-            <div class="card card-block">', $inx1, 15);
-        
-      }
-      
+            <div class="card card-block">', $inx1, 15); 
+      } 
     }
-    
-    
     file_put_contents($this->outputFile, $fullHtml);
   }
   
@@ -47,7 +43,6 @@ class Ggr {
     $fullText =  file_get_contents($this->fileName);
     return $fullText;
   }
-  
 }
 
 //

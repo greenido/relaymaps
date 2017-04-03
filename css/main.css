@@ -4,11 +4,20 @@ body {
   padding: 0;
   background: #fdfdfd;
 }
+
+h1 {
+  font-size: 2.5rem;
+  background: rgba(187, 187, 22, 0.4);
+  padding: .4em;
+  border-radius: 10px;
+}
+
 h2 {
   color: #ab0000;
   margin-left: 0.6em;
   margin-top: 1em;
 }
+
 h3 {
   margin-left: 1em;
   padding-left: 1em;

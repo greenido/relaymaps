@@ -23,3 +23,7 @@ Then:
 
 A fair amount of stuff is hardcoded. For example, legs must be named "Leg XX",
 with "Exchange XX", or "Exch. XX", and "Start" / "Finish" items.
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-65622529-1/golden-gate-replay-run/main)](https://github.com/igrigorik/ga-beacon)
+

@@ -1,7 +1,7 @@
 Generates a web page with maps based on The Relay KMZ/KML maps.
 
 ## Live version
-[https://greenido.github.io/relaymaps/](https://greenido.github.io/relaymaps/)
+https://bit.ly/ggrr1 or https://greenido.github.io/relaymaps/
 
 ## Build
 

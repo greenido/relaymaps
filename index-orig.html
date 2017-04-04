@@ -11,17 +11,16 @@
     <link rel="manifest" href="manifest.json">
     <meta name="mobile-web-app-capable content=yes>
     <meta name=" application-name content=" GGRR-1 ">
-    <link rel="icon" sizes=192x192 href=" img/pencil-192.png ">
-    <meta name=apple-mobile-web-app-capable content=" yes ">
+    <link rel="icon" sizes="192x192" href=" img/pencil-192.png ">
+    <meta name=apple-mobile-web-app-capable content="yes">
     <meta name=apple-mobile-web-app-status-bar-style content=black>
-    <meta name=apple-mobile-web-app-title content="GGRR ">
+    <meta name=apple-mobile-web-app-title content="GGRR">
     <meta name=msapplication-TileImage content=img/pencil-144.png>
     <meta name=msapplication-TileColor content=#2196F3>
     <meta name=theme-color content=#2196F3>
-    <meta property=og:title content="LPA ">
+    <meta property=og:title content="LPA">
     <meta property=og:type content=website>
-    <meta property=og:image content=https://greenido.github.io/relaymaps//img/pencil-192.png>
-    <meta property=og:url content="https://greenido.github.io/relaymaps/ ">
+    <meta property=og:image content=https://greenido.github.io/relaymaps/img/pencil-192.png <meta property=og:url content="https://greenido.github.io/relaymaps/">
     <meta property=og:description content="The maps for all the legs of Golden Gate Relay Run ">
     <meta name=twitter:card content=summary>
     <meta name=twitter:url content="https://https://greenido.github.io/relaymaps/ ">
@@ -39,9 +38,27 @@
 
 <body>
     <div class="container ">
+    <div class="jumbo">
         <h1>The maps for all the legs of <a href="http://www.therelay.com/ " target="_blank ">Golden Gate Relay Run</a></h1>
+            <h5>I'm runner #</h5>
+            <select id="runner-sel" class="custom-select">
+              <option selected>--</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+    </div>
 
-        <button class="btn btn-primary btn-space " type="button " data-toggle="collapse " data-target="#leg-1-details " aria-expanded="false " aria-controls="leg-1-details ">
+        <button id="leg-1-but" class="btn btn-primary btn-space " type="button " data-toggle="collapse " data-target="#leg-1-details " aria-expanded="false " aria-controls="leg-1-details ">
         Leg 1</button>
 
         <div class="collapse " id="leg-1-details ">
@@ -911,6 +928,90 @@
     <script src=" https://code.jquery.com/jquery-3.1.1.slim.min.js " integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js " integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn " crossorigin="anonymous "></script>
+
+      <script type="text/javascript">
+        $('.jumbo').on('change', '#runner-sel', function () {
+        var runnerNum = $("#runner-sel").val();
+        switch (runnerNum) {
+            case "1":
+                $(".btn").hide();
+                $("#leg-1-but").show();
+                $("#leg-13-but").show();
+                $("#leg-25-but").show();   
+                break;
+            case "2":
+                $(".btn").hide();
+                $("#leg-2-but").show();
+                $("#leg-14-but").show();
+                $("#leg-26-but").show();   
+                break;
+            case "3":
+                $(".btn").hide();
+                $("#leg-3-but").show();
+                $("#leg-15-but").show();
+                $("#leg-27-but").show();   
+                break;
+            case "4":
+                $(".btn").hide();
+                $("#leg-4-but").show();
+                $("#leg-16-but").show();
+                $("#leg-28-but").show();   
+                break;
+            case "5":
+                $(".btn").hide();
+                $("#leg-5-but").show();
+                $("#leg-17-but").show();
+                $("#leg-29-but").show();   
+                break;
+            case "6":
+                $(".btn").hide();
+                $("#leg-6-but").show();
+                $("#leg-18-but").show();
+                $("#leg-30-but").show();   
+                break;
+            case "7":
+                $(".btn").hide();
+                $("#leg-7-but").show();
+                $("#leg-19-but").show();
+                $("#leg-31-but").show();   
+                break;
+            case "8":
+                $(".btn").hide();
+                $("#leg-8-but").show();
+                $("#leg-20-but").show();
+                $("#leg-32-but").show();   
+                break;    
+            case "9":
+                $(".btn").hide();
+                $("#leg-9-but").show();
+                $("#leg-21-but").show();
+                $("#leg-33-but").show();   
+                break;    
+            case "10":
+                $(".btn").hide();
+                $("#leg-10-but").show();
+                $("#leg-22-but").show();
+                $("#leg-34-but").show();   
+                break;    
+            case "11":
+                $(".btn").hide();
+                $("#leg-11-but").show();
+                $("#leg-23-but").show();
+                $("#leg-35-but").show();   
+                break;    
+            case "12":
+                $(".btn").hide();
+                $("#leg-12-but").show();
+                $("#leg-24-but").show();
+                $("#leg-36-but").show();   
+                break;    
+            default: 
+                $(".btn").show();   
+                break;
+        };
+      });
+    </script>
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;

@@ -8,12 +8,12 @@ var version = 'v1::';
    then the service worker won't be installed either.
 */
 var offlineFundamentals = [
-  '/',
-  'css/main.css',
+  '/relaymaps/index-sw.html',
+  '/relaymaps/css/main.css',
   "https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en",
   "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",
-  'relay_files/staticmap',
-  'relay_files/staticmap(1)',
+  'relaymaps/relay_files/staticmap',
+  'relaymaps/relay_files/staticmap(1)',
   "https://code.jquery.com/jquery-3.1.1.slim.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js",
   "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"

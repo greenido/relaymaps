@@ -1,5 +1,8 @@
-"use strict";
-
+//
+// Ido Green | @greenido
+//
+// Start the SW party
+//
 console.log('SW: executing the magic...');
 var version = 'v1::';
 

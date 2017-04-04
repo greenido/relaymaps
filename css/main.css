@@ -63,3 +63,8 @@ select.custom-select {
   top: -2.3em;
   left: 7em;
 }
+#open-close-div {
+  position: relative;
+  left: 12em;
+  top: -4.6em;
+}

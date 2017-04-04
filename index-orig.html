@@ -56,6 +56,10 @@
               <option value="11">11</option>
               <option value="12">12</option>
             </select>
+            <div id="open-close-div">
+                <button id="open-all" type="button" class="btn btn-warning">Open</button>
+                <button id="close-all" type="button" class="btn btn-warning">Close</button>
+            </div>
     </div>
 
         <button id="leg-1-but" class="btn btn-primary btn-space" type="button " data-toggle="collapse" data-target="#leg-1-details" 
@@ -931,6 +935,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js " integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn " crossorigin="anonymous "></script>
 
       <script type="text/javascript">
+        $("#open-all").click(function(event) {
+            $(".collapse").collapse('show');
+        });
+
+        $("#close-all").click(function(event) {
+            $(".collapse").collapse('hide');
+        });
+
+        //
+        // show the legs per runner
+        //
         $('.jumbo').on('change', '#runner-sel', function () {
         var runnerNum = $("#runner-sel").val();
         switch (runnerNum) {

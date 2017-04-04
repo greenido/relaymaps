@@ -4,7 +4,7 @@
 // Start the SW party
 //
 console.log('SW: executing the magic...');
-var version = 'v1::';
+var version = 'v2::';
 
 /* These resources will be downloaded and cached by the service worker
    during the installation process. If any resource fails to be downloaded,
@@ -12,6 +12,7 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
   '/relaymaps/index-sw.html',
+  '/relaymaps/index.html',
   'css/main.css',
   "https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en",
   "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",

@@ -29,7 +29,8 @@
     <meta name=twitter:image content=https://greenido.github.io/relaymaps/img/pencil-192.png>
     <meta name=twitter:creator content=@greenido>
     <title>Golden Gate Relay Run</title>
-
+    
+    <!-- CSS -->
     <link rel="stylesheet " href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en ">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css " integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ " crossorigin="anonymous ">
@@ -1039,7 +1040,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js " integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn " crossorigin="anonymous "></script>
 
-      <script type="text/javascript">
+      <script>
+        // ServiceWorker is a progressive technology. Ignore unsupported browsers
+          if ('serviceWorker' in navigator) {
+            console.log('service worker registration in progress.');
+            navigator.serviceWorker.register('sw.js').then(function() {
+              console.log('service worker registration complete.');
+            }, function() {
+              console.log('service worker registration failure.');
+            });
+          } else {
+            console.log('service worker is not supported.');
+          }
+
+
         $("#open-all").click(function(event) {
             $(".collapse").collapse('show');
         });

@@ -1,0 +1,1220 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"runn",
+				"runnerNum"
+			],
+			[
+				"runner",
+				"runner-sel"
+			],
+			[
+				"attend",
+				"attendees"
+			],
+			[
+				"att",
+				"attendees"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mentors",
+				"mentorsList"
+			],
+			[
+				"btn-",
+				"btn-info\t(index.html)"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"link",
+				"linkedinUrl"
+			],
+			[
+				"expert",
+				"expertise"
+			],
+			[
+				"men",
+				"mentor"
+			],
+			[
+				"tw",
+				"twitterStr"
+			],
+			[
+				"twi",
+				"twitter"
+			],
+			[
+				"curA",
+				"curAttendeeEmail"
+			],
+			[
+				"r",
+				"round〔function〕"
+			],
+			[
+				"note",
+				"noteData"
+			],
+			[
+				"imgs",
+				"imgsHTML"
+			],
+			[
+				"imgsE",
+				"imgsElemId"
+			],
+			[
+				"pho",
+				"photosHTML"
+			],
+			[
+				"img",
+				"imgsLinks"
+			],
+			[
+				"app",
+				"appendTo〔function〕"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"curs",
+				"cursor"
+			],
+			[
+				"pic",
+				"picId"
+			],
+			[
+				"uplo",
+				"uploadTask"
+			],
+			[
+				"downlo",
+				"downloadURL"
+			],
+			[
+				"bo",
+				"body\tTag"
+			],
+			[
+				"pro",
+				"provider"
+			],
+			[
+				"sign",
+				"sign-out\t(main.js)"
+			],
+			[
+				"erroC",
+				"errorCode"
+			],
+			[
+				"startt",
+				"startTime"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"tim",
+				"timeConverter"
+			],
+			[
+				"btn",
+				"btn-info"
+			],
+			[
+				"read",
+				"readRef"
+			],
+			[
+				"back",
+				"backupKey"
+			],
+			[
+				"bootbox",
+				"bootbox.alert\t(main-mentor.js)"
+			],
+			[
+				"bac",
+				"backupKey"
+			],
+			[
+				"e",
+				"err"
+			],
+			[
+				"on",
+				"onerror"
+			],
+			[
+				"curm",
+				"curMentor"
+			],
+			[
+				"sta",
+				"startups"
+			],
+			[
+				"Atten",
+				"Attendees"
+			],
+			[
+				"move",
+				"moveMentorBack"
+			],
+			[
+				"dis",
+				"disTime"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"start",
+				"startup"
+			],
+			[
+				"atten",
+				"attendees"
+			],
+			[
+				"Atte",
+				"Attendees"
+			],
+			[
+				"startup",
+				"startupName"
+			],
+			[
+				"snaps",
+				"snapshot.val"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"meet",
+				"meetingTime"
+			],
+			[
+				"starttim",
+				"starttime"
+			],
+			[
+				"endt",
+				"endtime"
+			],
+			[
+				"scD",
+				"scData"
+			],
+			[
+				"startT",
+				"startTime"
+			],
+			[
+				"curM",
+				"curMentor"
+			],
+			[
+				"def",
+				"defTime"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"tmpm",
+				"tmpMentorEmailStr"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"first",
+				"firstComments"
+			],
+			[
+				"tar",
+				"target=\"_blank\t(main.js)"
+			],
+			[
+				"notes",
+				"notesTableElem"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"got",
+				"gotAllData"
+			],
+			[
+				"st",
+				"stringify"
+			],
+			[
+				"JSON",
+				"JSON.stringify"
+			],
+			[
+				"try",
+				"try〔keyword〕"
+			],
+			[
+				"not",
+				"notes"
+			],
+			[
+				"lis",
+				"listen"
+			],
+			[
+				"meetings",
+				"meetingNotes\t(main-mentor.js)"
+			],
+			[
+				"curst",
+				"curStartup"
+			],
+			[
+				"oneP",
+				"onePagerButton"
+			],
+			[
+				"onePa",
+				"onePagerLink"
+			],
+			[
+				"his",
+				"historyUrl"
+			],
+			[
+				"history",
+				"historyUrl\t(main.js)"
+			],
+			[
+				"star",
+				"startup"
+			],
+			[
+				"action",
+				"actionItems"
+			],
+			[
+				"actio",
+				"actionItems"
+			],
+			[
+				"co",
+				"comments"
+			],
+			[
+				"target",
+				"target=\"_blank"
+			],
+			[
+				"impor",
+				"important"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ex",
+				"expertise"
+			],
+			[
+				"cura",
+				"curAttendeeEmail"
+			],
+			[
+				"atte",
+				"attendees"
+			],
+			[
+				"lpa-log",
+				"lpa-logo-40.jpg\t(index.html)"
+			],
+			[
+				"gui",
+				"guideline-modal"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"eff",
+				"effectiveVal"
+			],
+			[
+				"rec",
+				"receptiveVal"
+			],
+			[
+				"slid",
+				"sliders"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"wr",
+				"write\t(index.html)"
+			],
+			[
+				"Link",
+				"Linkedin\t(main-mentor.js)"
+			],
+			[
+				"key",
+				"keyDate"
+			],
+			[
+				"snap",
+				"snapshot"
+			],
+			[
+				"sc",
+				"scDay"
+			],
+			[
+				"email",
+				"emailKey"
+			],
+			[
+				"startupNot",
+				"startupNotesKeys"
+			],
+			[
+				"JS",
+				"JSON.stringify"
+			],
+			[
+				"cur",
+				"curNotes〔variable〕"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"col-",
+				"col-sm-2"
+			],
+			[
+				"tmp",
+				"tmpMentorEmail"
+			],
+			[
+				"tmpM",
+				"tmpMentorEmail\t(main.js)"
+			],
+			[
+				"stary",
+				"startupNotesKey"
+			],
+			[
+				"data-",
+				"data-startup"
+			],
+			[
+				"mentor",
+				"mentors"
+			],
+			[
+				"Yo",
+				"Your"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"fun",
+				"funFact"
+			],
+			[
+				"Do",
+				"Domain"
+			],
+			[
+				"line",
+				"lineNumber"
+			],
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"Conv",
+				"Conversation"
+			],
+			[
+				"ins",
+				"instead"
+			],
+			[
+				"Location",
+				"Locations\t(index.html)"
+			],
+			[
+				"Loca",
+				"Locations"
+			],
+			[
+				"Att",
+				"Attendees"
+			],
+			[
+				"sch",
+				"schedule"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"jo",
+				"joyride-2.1"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"joy",
+				"joyride-2.1\t(demo.html)"
+			],
+			[
+				"href",
+				"href=\"http\t(index.html)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 663577,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 972,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index-o.html",
+			"settings":
+			{
+				"buffer_size": 663577,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index-sw.html",
+			"settings":
+			{
+				"buffer_size": 664168,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index-orig.html",
+			"settings":
+			{
+				"buffer_size": 653679,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sw.js",
+			"settings":
+			{
+				"buffer_size": 6928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "\"use strict\";"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"pack",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 344.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/relaymaps",
+		"/Applications/MAMP/htdocs/relaymaps/css"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/relaymaps/TunerUtil.php",
+		"/Applications/MAMP/htdocs/relaymaps/README.md",
+		"/Applications/MAMP/htdocs/relaymaps/relay.htm",
+		"/Applications/MAMP/htdocs/lpa-1/js/main.js",
+		"/Applications/MAMP/htdocs/lpa-1/README.md",
+		"/Applications/MAMP/htdocs/relaymaps/index.html",
+		"/Applications/MAMP/htdocs/relaymaps/css/main.css",
+		"/Applications/MAMP/htdocs/lpa-1/index-mentor.html",
+		"/Applications/MAMP/htdocs/lpa-1/js/main-mentor.js",
+		"/Applications/MAMP/htdocs/lpa-1/index.html",
+		"/Applications/MAMP/htdocs/lpa-1/startup.html",
+		"/Applications/MAMP/htdocs/lpa-1/js/main-startup.js",
+		"/Applications/MAMP/htdocs/Golden-Gate-Relay-Run/index.html",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/Applications/MAMP/htdocs/ido-green.appspot.com/ido-green/www/contact.html",
+		"/Applications/MAMP/htdocs/LocationLog/index.html",
+		"/Applications/MAMP/htdocs/lpa-1/css/main.css",
+		"/Applications/MAMP/htdocs/LocationLog/main.html",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/JSLint/Default.sublime-keymap",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/lpa-1/copyFiles.sh",
+		"/Applications/MAMP/htdocs/lpa-1/.firebaserc",
+		"/Applications/MAMP/htdocs/lpa-1/mentor/js/firebase.js",
+		"/Applications/MAMP/htdocs/lpa-1/.gitignore",
+		"/Applications/MAMP/htdocs/lpa-1/manifest-m.json",
+		"/Applications/MAMP/htdocs/lpa-1/manifest-s.json",
+		"/Applications/MAMP/htdocs/lpa-1/sw.js",
+		"/Applications/MAMP/htdocs/ido-green.appspot.com/ido-green/www/startups.html",
+		"/Applications/MAMP/htdocs/lpa-1/gulpfile.js",
+		"/Applications/MAMP/htdocs/lpa-1/pic-t.html",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Applications/MAMP/htdocs/lpa-1/public/index-mentor.html",
+		"/Applications/MAMP/htdocs/lpa-1/public/index.html",
+		"/Applications/MAMP/htdocs/lpa-1/public/js/main-mentor.js",
+		"/Applications/MAMP/htdocs/lpa-1/public/js/main-startup.js",
+		"/Applications/MAMP/htdocs/lpa-1/public/js/main.js",
+		"/Applications/MAMP/htdocs/lpa-1/public/mentors-guidelines.html",
+		"/Applications/MAMP/htdocs/lpa-1/public/startup.html",
+		"/Applications/MAMP/htdocs/lpa-1/mentors-guidelines.html",
+		"/Applications/MAMP/htdocs/lpa1_bot/telegram-bot-meta.txt",
+		"/Applications/MAMP/htdocs/lpa-1/humans.txt",
+		"/Applications/MAMP/htdocs/lpa-1/database.rules.json",
+		"/Users/idog/Downloads/lpa-1-data-backups/notes-lpa-1-export.csv",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Applications/MAMP/htdocs/lpa-1/LICENSE",
+		"/Applications/MAMP/htdocs/lpa-1/firebase.json",
+		"/Applications/MAMP/htdocs/tmp/firebase-3-auth-example.html",
+		"/Users/idog/Downloads/joyride-master/demo/demo.html",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/lpa-1/js/vendor/jquery.joyride-2.1.js",
+		"/Applications/MAMP/htdocs/lpa-1/css/joyride-2.1.css",
+		"/Users/idog/Downloads/joyride-master/joyride-2.1.css",
+		"/Applications/MAMP/htdocs/Note-taker-1/index.html",
+		"/Applications/MAMP/htdocs/lpa-1/mdl-index-mentor.html",
+		"/Applications/MAMP/htdocs/lpa-1/IDs.txt",
+		"/Applications/MAMP/htdocs/fb-webchat/firebase-codelabs/web-start/firebase.json",
+		"/Applications/MAMP/htdocs/lpa-1/fb-3-auth.html",
+		"/Applications/MAMP/htdocs/lpa-1/js/auth-google.js",
+		"/Applications/MAMP/htdocs/lpa-1/js/auth-user-pass.js",
+		"/Applications/MAMP/htdocs/fb-webchat/firebase-codelabs/web-start/scripts/main.js",
+		"/Applications/MAMP/htdocs/fb-webchat/firebase-codelabs/web-start/index.html",
+		"/Applications/MAMP/htdocs/lpa-1/manifest.json",
+		"/Applications/MAMP/htdocs/lpa-1/cache-polyfill.js",
+		"/Applications/MAMP/htdocs/Note-taker-1/index-m.html",
+		"/Applications/MAMP/htdocs/pwa-run-calculator/index.html",
+		"/Applications/MAMP/htdocs/geo-distance.html",
+		"/Applications/MAMP/htdocs/Note-taker-1/firebase.json",
+		"/Applications/MAMP/htdocs/Note-taker-1/README.md",
+		"/Applications/MAMP/htdocs/Note-taker-1/css/main.css",
+		"/Applications/MAMP/htdocs/Note-taker-1/js/main.js",
+		"/Applications/MAMP/htdocs/Note-taker-1/sw.js",
+		"/Applications/MAMP/htdocs/Note-taker-1/cache-polyfill.js",
+		"/Applications/MAMP/htdocs/Note-taker-1/browserconfig.xml",
+		"/Applications/MAMP/htdocs/Note-taker-1/humans.txt",
+		"/Applications/MAMP/htdocs/Note-taker-1/manifest.json",
+		"/Applications/MAMP/htdocs/Note-taker-1/copyFiles.sh",
+		"/Applications/MAMP/htdocs/Note-taker-1/404.html",
+		"/Users/idog/Library/Application Support/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/Applications/MAMP/htdocs/Note-taker-1/js/markdown.js",
+		"/Applications/MAMP/htdocs/Note-taker-1/index-m2.html",
+		"/Applications/MAMP/htdocs/foundation-amir-school-hours/index.html",
+		"/Applications/MAMP/htdocs/Note-taker-1/js/bootstrap-wysiwyg.js",
+		"/Applications/MAMP/htdocs/push-notifications/completed/04-manifest/manifest.json",
+		"/Applications/MAMP/htdocs/push-notifications/README.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/lpa-1/",
+			"/Applications/MAMP/htdocs/lpa-1",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"property=",
+			" ",
+			"name=",
+			"WORKER:",
+			"worker",
+			"WORKER",
+			"CLIENT: ",
+			"jumbo",
+			"button",
+			"TODO",
+			"getAllText",
+			"<h2>Leg</h2>",
+			"h1",
+			"h2",
+			"h1",
+			"h2",
+			"textarea",
+			"email",
+			"datatab",
+			"localst",
+			"sett",
+			".ready",
+			">>>",
+			">>>>",
+			">>>",
+			"export",
+			"mentor",
+			">>>",
+			"END_POINT_URL",
+			"startup-notes",
+			"startup-ta",
+			"  ",
+			" ",
+			"                                         ",
+			"\\n",
+			"HEAD",
+			"goterror",
+			"saveSchedule",
+			"saveMeetingNotes",
+			"logo",
+			"online-status",
+			"talked",
+			"saved!",
+			"linkedin",
+			"read",
+			"startup-deta",
+			"History",
+			"notes",
+			"linkedin",
+			"twitter",
+			"auth",
+			"email",
+			"=atten",
+			"                    <option>",
+			"</option>",
+			"form-domain-select",
+			"mentor",
+			"fonts",
+			"key(",
+			"curAttendeeEmail",
+			"curMentorEmail",
+			"form-pic-url",
+			"+",
+			"attr",
+			"attr.",
+			"img",
+			"img-place-holder-",
+			"img-place-holder",
+			"expend-notes-but",
+			"addUnscheduledNotes",
+			"uploadImage",
+			"indent_size",
+			"Firebase",
+			"http",
+			".key(",
+			"key()",
+			"Firebase",
+			"api",
+			"lpa-1.fire",
+			"save-alert",
+			"https://lpa-1.firebaseio.co",
+			"https://lpa-1.firebaseio.com",
+			"chat",
+			"lpa-1.fir",
+			"chatRef",
+			"lpa-1.firebaseio.com",
+			"saveMeetingNotes",
+			"curMentorEmail",
+			"meeting-save-button",
+			"selectpick",
+			"getStartupSelect",
+			"getHourAsRange",
+			"reloadSchedule",
+			"bootbox.confirm",
+			"bootbox.",
+			"sessions",
+			".on(",
+			".on",
+			"getMentorsSelect",
+			"select",
+			"readLocalScheduleBackups",
+			"select",
+			"setite",
+			"locals",
+			"copyf",
+			"movef",
+			"timeConverter",
+			"export all",
+			"issue",
+			"then(",
+			"mentor-notes-viewer",
+			"startup-notes-viewer",
+			"notes-viewer-startup-select",
+			"notes",
+			"sche",
+			"Attendees U",
+			"notes",
+			"note",
+			"=notes",
+			"isScheduleGotErrors",
+			"assign the ",
+			"gen",
+			"=====",
+			"moveFBnode",
+			"\\\"",
+			"\").val(",
+			");",
+			"mentor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"<h3>Leg</h3>",
+			"h2",
+			"h3",
+			"h2",
+			"h3",
+			"<td></td>",
+			"</td>",
+			"</tr><tr>\\n",
+			"lpa-space.fire",
+			"curAttendeeEmail",
+			"\"",
+			"\",",
+			"\"",
+			"\",",
+			"\"",
+			", ",
+			"https://launchpad-accelerator-f3439.firebaseio.com/",
+			"attendees-tab",
+			"schedule-tab",
+			"startup-tab",
+			"\"",
+			"mentor",
+			"mentors/",
+			"mentor-edit",
+			"readMentors",
+			"LPA",
+			".\",",
+			"\"I",
+			" ",
+			"",
+			"I'd love to, but"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Applications/MAMP/htdocs/lpa-1"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/ido-green.appspot.com"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/relaymaps"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2418,
+								2418
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index-o.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2334,
+								2334
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index-sw.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 664168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index-orig.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3249,
+								3249
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 449.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sw.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "\"use strict\";",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"lpa-1/js/main-mentor.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

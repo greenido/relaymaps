@@ -3,8 +3,9 @@
 //
 // Start the SW party
 //
-console.log('SW: executing the magic...');
+
 var version = 'v3::';
+console.log('SW: executing the magic... with version: ' + version);
 
 /* These resources will be downloaded and cached by the service worker
    during the installation process. If any resource fails to be downloaded,

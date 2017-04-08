@@ -4,7 +4,7 @@
 // Start the SW party
 //
 
-var version = 'v3::';
+var version = 'v4::';
 console.log('SW: executing the magic... with version: ' + version);
 
 /* These resources will be downloaded and cached by the service worker

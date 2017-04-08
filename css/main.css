@@ -8,6 +8,7 @@ h1 {
   background: rgba(187, 187, 22, 0.4);
   padding: .4em;
   border-radius: 10px;
+  text-align: center;
   margin-top: 0.1em;
 }
 
@@ -30,17 +31,20 @@ h3:before {
   height: 35%;
   background: #ab0000;
 }
+
 p {
   margin-left: 1em;
   font-weight: 300;
   position: relative;
   color: #383838;
 }
+
 hr {
   border-top: 1px gray;
   margin: 1em 0 0.5em 0;
   box-shadow: 0 1px 1px #797979;
 }
+
 img {
   margin-left: .5em;
   box-shadow: 0 0 8px #bfbfbf;
@@ -64,6 +68,7 @@ select.custom-select {
   top: -2.3em;
   left: 7em;
 }
+
 #open-close-div {
   position: relative;
   left: 12em;

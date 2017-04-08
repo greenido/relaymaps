@@ -4,7 +4,7 @@
 // Start the SW party
 //
 console.log('SW: executing the magic...');
-var version = 'v2::';
+var version = 'v3::';
 
 /* These resources will be downloaded and cached by the service worker
    during the installation process. If any resource fails to be downloaded,
@@ -14,10 +14,28 @@ var offlineFundamentals = [
   '/relaymaps/index-sw.html',
   '/relaymaps/index.html',
   'css/main.css',
+  'img/gg-running.jpg',
   "https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en",
   "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",
   'relay_files/staticmap',
   'relay_files/staticmap(1)',
+  'relay_files/staticmap(2)',
+  'relay_files/staticmap(3)',
+  'relay_files/staticmap(4)',
+  'relay_files/staticmap(5)',
+  'relay_files/staticmap(6)',
+  'relay_files/staticmap(7)',
+  'relay_files/staticmap(8)',
+  'relay_files/staticmap(9)',
+  'relay_files/staticmap(10)',
+  'relay_files/staticmap(11)',
+  'relay_files/staticmap(12)',
+  'relay_files/staticmap(13)',
+  'relay_files/staticmap(14)',
+  'relay_files/staticmap(15)',
+  'relay_files/staticmap(16)',
+  'relay_files/staticmap(17)',
+  'relay_files/staticmap(18)',
   "https://code.jquery.com/jquery-3.1.1.slim.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js",
   "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"

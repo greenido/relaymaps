@@ -69,8 +69,11 @@ select.custom-select {
   left: 7em;
 }
 
-#open-close-div {
-  position: relative;
-  left: 12em;
-  top: -4.6em;
+/* #open-close-div {
+  position: absolute;
+  left: 0.2em;
+  top: 0.4em;
 }
+#close-all {
+  margin-top: 0.4em;
+} */

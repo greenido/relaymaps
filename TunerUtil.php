@@ -25,7 +25,7 @@ class Ggr {
     
     for ($i = 1; $i < $legs+1; $i++) {
       $inx1 = strpos($fullHtml, "<h1>Leg") - 7;
-      if ($i > 2) {
+      if ($i > 1) {
         $fullHtml = substr_replace($fullHtml, '</div></div> <button class="btn btn-primary btn-space" type="button" data-toggle="collapse" 
             data-target="#leg-' . $i . '-details" aria-expanded="false" aria-controls="leg-' . $i . '-details">
           Leg '.$i.'</button> <div class="collapse" id="leg-' . $i .'-details">
